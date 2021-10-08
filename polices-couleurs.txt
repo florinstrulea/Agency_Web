@@ -1,0 +1,12 @@
+
+/!\ Merci d'utiliser Bootstrap et l'unité Rem (pour les tailles des polices) /!\
+
+Police de caractères :
+	Hind (disponible sur Google Fonts)
+	Poppins (disponible sur Google Fonts)
+    
+Couleurs :
+	Couleur principale : #4DBECD;
+	Couleur secondaire : #F4961A;
+	Couleur du texte par défaut : #666666;
+	Couleur texte "Des experts vous accompagnent pour enchanter votre projet" et des en-têtes de manière générale : #41516a

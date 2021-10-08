@@ -1,0 +1,225 @@
+/* Couleur principale {color: #4DBECD;
+Couleur secondaire : #F4961A;
+Couleur du texte par défaut : #666666; */
+
+/*html {
+  font-size: 62.5%; ainsi 1rem=10px au lieu de 16px 
+}*/
+
+/* font-family: "Hind", sans-serif;
+font-family: "Poppins", sans-serif; */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: "Poppins", sans-serif;
+}
+body {
+	background-color: #0f6797;
+	color: #666666;
+}
+.hind {
+	font-family: "Hind", sans-serif;
+}
+
+/* header part */
+/* nav section */
+
+nav a img {
+	width: 8rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	font-size: 1.1rem;
+	color: #0f6797;
+	transition: 0.5s;
+}
+
+/* carousel section */
+
+.carousel img {
+	height: 100vh;
+}
+
+.carousel {
+	position: relative;
+}
+.slogan {
+	color: #3e85aa;
+	font-weight: bold;
+	position: absolute;
+	top: 30%;
+}
+.fas_arrow {
+	color: #bebebe;
+	font-size: 2rem;
+	padding: 1rem 0;
+}
+.fas_arrow:hover {
+	color: white;
+}
+
+.carousel_buttons {
+	background-color: #3e85aa;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.carousel_description {
+	position: absolute;
+	top: 60%;
+}
+
+.carousel_description--primary {
+	background-color: white;
+}
+.carousel_description--secondary {
+	background-color: #3e85aa;
+	color: white;
+}
+
+.link-light {
+	text-decoration: none;
+}
+
+/* main part */
+/* chapters section */
+
+.chapters_chapter {
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+}
+
+.chapters img {
+	width: 100%;
+}
+.title_blue--primary {
+	color: #0f6797;
+}
+.title_blue--secondary {
+	color: #a0c0cf;
+}
+.chapters_textSmall {
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+
+.chapter1 {
+	background-color: #333333;
+	clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 85%);
+}
+
+.chapter2 {
+	background-color: #0f6797;
+}
+
+/* service section */
+
+.fas_service {
+	color: #0f6797;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.fas_service:hover {
+	filter: brightness(1.4);
+	font-size: 2.5rem;
+}
+
+/* portfolio section */
+
+.admirez {
+	padding-top: 8rem;
+}
+
+.brand img {
+	width: 100%;
+}
+
+/* brands section */
+
+.brand {
+	position: relative;
+}
+
+.brand_hidden {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: hsla(217, 13%, 47%, 0.671);
+
+	padding-bottom: 2rem;
+}
+
+.brand:hover .brand_hidden {
+	visibility: visible;
+	opacity: 1;
+}
+
+.brand_hidden div a {
+	box-shadow: 0.5rem 0.5rem 0.3rem #3e85aa;
+}
+.brand_description {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	color: white;
+}
+
+.bg_custom {
+	background-color: #0f6797;
+}
+
+/* dirigeants section */
+
+.photo_dirigeants a {
+	text-decoration: none;
+	color: #666666;
+	font-size: 1.5rem;
+}
+
+.photo_dirigeants img {
+	width: 70%;
+	padding-top: 2rem;
+}
+
+/* footer part */
+/* newsletter section */
+
+.newsletter {
+	background-color: #3e85aa;
+}
+
+input[type="email"] {
+	border-radius: 2rem 0 0 2rem;
+	border: none;
+	padding: 0.5rem 8rem 0.5rem 1.5rem;
+	width: 70%;
+}
+input[type="submit"] {
+	border-radius: 0 2rem 2rem 0;
+	padding: 0.5rem 1rem;
+	border: none;
+	width: 30%;
+}
+form {
+	width: 100%;
+	border-color: #3e85aa;
+}
+/* contact section */
+
+.icon_contact {
+	color: #0f6797;
+}
+
+.vivre_img img {
+	width: 100%;
+}
+
+.contact span:hover {
+	filter: brightness(1.4);
+}
